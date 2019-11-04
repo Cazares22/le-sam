@@ -1,0 +1,60 @@
+.encabezado {
+  margin: 0 auto;
+  background-color:purple;
+  height: 100px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rectangulo{
+    background-color: pink;;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.medio{
+  margin: 0 auto;
+  background-color:brown;
+  height: 350px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cuadrado {
+    background-color:blue;
+    height: 350px;
+    width: 700px;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+ }
+.rectver{
+    
+      align-items: center;
+      background-color: saddlebrown;
+      height: 350px;
+      width: 200px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+  }
+.cuadraditos{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border: 1px solid black;
+}
+.ultimo{
+    margin: 0 auto;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
